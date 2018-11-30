@@ -5,10 +5,10 @@ def test(str1, str2):
         return 0
     if str1 == str2:
         return 1
+    if str2 == "learn":
+        return 3
     if len(str1) > len(str2):
         return 2
-    if str1 != str2 and str2 == "learn":
-        return 3
 
 str1 = 1
 str2 = "learn"
@@ -26,6 +26,6 @@ str1 = "learn11"
 str2 = "tree"
 print(test(str1, str2))
 
-str1 = "fgh"
+str1 = "fghhghgfhgfgfj"
 str2 = "learn"
 print(test(str1, str2))
